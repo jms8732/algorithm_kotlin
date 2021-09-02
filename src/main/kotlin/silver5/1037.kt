@@ -14,5 +14,6 @@ fun main(args: Array<String>) {
         list.sort()
 
         println(list[0] * list[list.size-1])
+
     }
 }

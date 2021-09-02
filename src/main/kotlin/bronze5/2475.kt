@@ -1,12 +1,6 @@
-import kotlin.math.pow
+import java.util.*
+import java.util.concurrent.TimeUnit
 
-fun main(args: Array<String>) {
-    var result = 0.0
-
-    readLine()?.split(" ")?.forEach {
-        result += it.toDouble().pow(2)
-    }
-
-
-    println(result.rem(10).toInt())
+fun main(args : Array<String>){
+    println("UUID : ${UUID.randomUUID().toString()}")
 }
