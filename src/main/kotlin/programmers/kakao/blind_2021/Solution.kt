@@ -1,5 +1,10 @@
 package programmers.kakao.blind_2021
 
+/*
+신규 아이디 추천
+풀이 방법: 시뮬레이션이므로 본인이 쉽게 구현할 수 있는 방법으로 진행한다.
+
+ */
 fun main(args : Array<String>){
     val sol = Solution()
     println(sol.solution("...!@BaT#*..y.abcdefghijklm"))

@@ -1,6 +1,11 @@
 package programmers.dev_matching.`2021`
 
 
+/*
+로또의 최고 순위와 최저 순위
+풀이 방법: 최고 순위와 최저 순위의 차이점은, 0에 해당 되는 갯수를 찾는 것이다.
+최고 순위는 0의 갯수를 모두 더하면 되고, 최저 순위는 0의 갯수를 안 더하면 된다.
+ */
 
 class Solution {
     fun solution(lottos: IntArray, win_nums: IntArray): IntArray {
