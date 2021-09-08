@@ -1,6 +1,5 @@
-package programmers.kakao.intership2021
+package programmers.kakao.internship2021
 
-import programmers.solution
 import java.lang.StringBuilder
 
 /*
