@@ -12,6 +12,7 @@ class Solution3 {
         return n.changeNotation().foldRightIndexed(0){index, c, total ->
             total + (c-'0') * pow(3.0, index.toDouble()).toInt()
         }
+        return n.toString(3).reversed().toInt(3)
     }
 
     private fun Int.changeNotation() : String{
