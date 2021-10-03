@@ -3,6 +3,9 @@ package programmers.skill
 import java.util.*
 import kotlin.collections.LinkedHashSet
 
+/*
+스킬 레벨 3
+ */
 fun main(args: Array<String>) {
     val sol = Solution6()
     println(sol.solution(8, 2, arrayOf("D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z", "U 1", "C")))

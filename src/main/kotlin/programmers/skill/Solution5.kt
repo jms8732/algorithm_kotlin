@@ -1,5 +1,9 @@
 package programmers.skill
 
+/*
+스킬 레벨 3
+ */
+
 fun main(args: Array<String>) {
     val sol = Solution5()
 
