@@ -1,6 +1,7 @@
 package programmers.skill
 
 import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.collections.LinkedHashSet
 
 /*
@@ -15,9 +16,9 @@ class Solution6 {
     val stack = Stack<Node>()
 
     fun solution(n: Int, k: Int, cmd: Array<String>): String {
-        val cached= Array(n) { Node(null, null,false) }
+        val cached= ArrayList<Node>() //{ Node(null, null,false) }
         for (i in 0 until n) {
-            cached[i] = Node(null, null, false)
+            cached.add(Node(null, null, false))
         }
 
         for (i in 1 until n) {
